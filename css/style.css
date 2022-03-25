@@ -59,3 +59,32 @@ body {
 .attribution a {
   color: hsl(150, 100%, 66%);
 }
+
+
+@media only screen and (max-width: 600px) {
+  .generator {
+    width: 80%;
+  }
+
+  .attribution {
+    margin: 10px;
+    display: block;
+    text-align: center;
+    align-items: flex-end;
+    color: hsl(193, 38%, 86%);
+  }
+
+  .btn-dice {
+    position: absolute;
+    bottom: -25px;
+    left: 42.5%;
+  }
+
+  .container {
+    height: 85vh;
+  }
+
+  #img-divider {
+    width: 95%;
+  }
+}
